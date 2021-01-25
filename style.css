@@ -16,7 +16,7 @@ body {
 
 canvas {
     font-family: 'Noto Sans KR', sans-serif;
-    display:table; 
+    display:block; 
 }
 
 #controls {
@@ -48,21 +48,12 @@ a:hover {
     font-family: 'Noto Sans KR', sans-serif;
     display: grid;
     width: 1160px;
-    margin: 80px auto;
+    margin: 30px auto;
     grid-gap: 30px 60px;
     grid-template-columns: 250px 850px;
     grid-template-areas:
         "logo header"
         ".... content";
-}
-
-.logo {
-    font-family: 'Noto Sans KR', sans-serif;
-    position: relative;
-    grid-area: logo;
-    display: block;
-    width: 250px;
-    height: 250px;
 }
 
 h1 {
