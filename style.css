@@ -85,6 +85,7 @@ h2 {
     display: block;
     margin: var(--header-top) 0 0;
     font-size: var(--header-font-size);
+    font-weight: 500;
     line-height: var(--header-line-height);
     color: #FFFFFF;
 }
